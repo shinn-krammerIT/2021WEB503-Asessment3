@@ -31,6 +31,12 @@ a:hover {
     grid-template-rows: 5rem 1fr 5rem;
     height: 100%;
 }
+
+.navLeft {
+    display: flex;
+    align-items: center;
+}
+
 header {
     grid-area: header;
     background-color: #203040;
@@ -45,6 +51,7 @@ header a {
     color: white;
     font-weight: bold;
     text-decoration: none;
+    padding: 1.6rem;
 }
 
 .logo a {
